@@ -1,0 +1,35 @@
+{
+  "name": "Relatorio",
+  "version": "0.0.0",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "preinstall": "npx npm-force-resolutions",
+    "start": "gulp watch"
+  },
+  "resolutions": {
+    "graceful-fs": "^4.2.4"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1",
+    "natives": "^1.1.6"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.12",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-data": "^1.2.1",
+    "gulp-declare": "0.3.0",
+    "gulp-ftp": "^1.1.0",
+    "gulp-handlebars": "^4.0.0",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-less": "^3.3.2",
+    "gulp-newer": "^1.3.0",
+    "gulp-nunjucks-render": "^2.2.1",
+    "gulp-uglify": "^3.0.0",
+    "gulp-util": "^3.0.8",
+    "gulp-wrap": "^0.13.0",
+    "require-dir": "^0.3.2"
+  }
+}
